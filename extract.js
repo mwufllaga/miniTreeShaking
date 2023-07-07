@@ -6,9 +6,9 @@ let tree = {
     entryName:'root',
     children:[]
 }
-const rootDir = 'miravia-logistics-op-brain-f'
-const treeShakingRoot = './src/pages/search_tool/index'
-const srcPath = './src'
+const rootDir = 'rootFolder' //将在该文件夹下创建额外文件夹
+const treeShakingRoot = './src/pages/index' //根文件
+const srcPath = './src' //src文件夹
 function addToExtractTree(filepath,srcPath){
    const absolutePath =  path.resolve(filepath)
    const absoluteSrcPath = path.resolve(srcPath)
